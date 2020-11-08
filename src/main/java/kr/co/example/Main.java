@@ -6,7 +6,7 @@ import com.sun.org.slf4j.internal.LoggerFactory;
 import java.sql.*;
 
 public class Main {
-    private static Logger logger = LoggerFactory.getLogger(Main.class);
+    private static final Logger logger = LoggerFactory.getLogger(Main.class);
 
     public static void main(String[] args) throws SQLException {
         logger.debug("Hello World");
