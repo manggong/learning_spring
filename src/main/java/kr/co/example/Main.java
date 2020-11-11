@@ -10,28 +10,39 @@ public class Main {
 
     public static void main(String[] args) {
         logger.info("Hello world");
-    }
 
-    Connection connection = null;
-    Statement statement = null;
-    try {
-        Class.forName("org.h2.Driver");
-        String url = "jdbc:h2:~/test;MODE=MySQL";
-        connection = DriverManager.getConnection(url, "sa", "");
-        statement = connection.createStatement();
+        Connection connection = null;
+        Statement statement = null;
+        try {
+            Class.forName("org.h2.Driver");
+            String url = "jdbc:h2:~/test;MODE=MySQL";
+            connection = DriverManager.getConnection(url, "sa", "");
+            statement = connection.createStatement();
 
-        ResultSet resultSet = statement.executeQuery("select * from member");
-        while (resultSet.next()) {
-            int id = resultSet.getInt("id");
-            String username = resultSet.getString("username");
-            String password = resultSet.getString("password");
+            ResultSet resultSet = statement.executeQuery("select * from member");
+            while (resultSet.next()) {
+                int id = resultSet.getInt("id");
+                String username = resultSet.getString("username");
+                String password = resultSet.getString("password");
 
-            logger.info("id: " + id);
+                logger.info("id: " + id + " " + "name: " + username);
+            }
+        } catch (ClassNotFoundException e) {
+            e.printStackTrace();
+        } catch (SQLException e) {
+            e.printStackTrace();
+        } finally {
+            try {
+                statement.close();
+            } catch (SQLException e) {
+                e.printStackTrace();
+            }
+            try {
+                connection.close();
+            } catch (SQLException e) {
+                e.printStackTrace();
+            }
         }
-    } catch(ClassNotFoundException e) {
-        e.printStackTrace();
-    } catch(SQLException e) {
-        e.printStackTrace();
     }
 }
 

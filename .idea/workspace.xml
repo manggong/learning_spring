@@ -26,7 +26,6 @@
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/kr/co/example/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/kr/co/example/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/kr/co/example/Main.class" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -61,10 +60,10 @@
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
-    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.last.edited" value="Libraries" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
-    <property name="settings.editor.selected.configurable" value="reference.projectsettings.compiler.javacompiler" />
+    <property name="settings.editor.selected.configurable" value="project.propCompiler" />
   </component>
   <component name="RunManager">
     <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
@@ -114,25 +113,25 @@
       <screen x="0" y="23" width="1440" height="877" />
     </state>
     <state x="499" y="365" key="DetectedRootsChooserDialog/0.23.1440.877@0.23.1440.877" timestamp="1605016844835" />
-    <state width="1398" height="226" key="GridCell.Tab.0.bottom" timestamp="1605015578842">
+    <state width="1398" height="226" key="GridCell.Tab.0.bottom" timestamp="1605100897177">
       <screen x="0" y="23" width="1440" height="877" />
     </state>
-    <state width="1398" height="226" key="GridCell.Tab.0.bottom/0.23.1440.877@0.23.1440.877" timestamp="1605015578842" />
-    <state width="1398" height="226" key="GridCell.Tab.0.center" timestamp="1605015578840">
+    <state width="1398" height="226" key="GridCell.Tab.0.bottom/0.23.1440.877@0.23.1440.877" timestamp="1605100897177" />
+    <state width="1398" height="226" key="GridCell.Tab.0.center" timestamp="1605100897176">
       <screen x="0" y="23" width="1440" height="877" />
     </state>
-    <state width="1398" height="226" key="GridCell.Tab.0.center/0.23.1440.877@0.23.1440.877" timestamp="1605015578840" />
-    <state width="1398" height="226" key="GridCell.Tab.0.left" timestamp="1605015578839">
+    <state width="1398" height="226" key="GridCell.Tab.0.center/0.23.1440.877@0.23.1440.877" timestamp="1605100897176" />
+    <state width="1398" height="226" key="GridCell.Tab.0.left" timestamp="1605100897175">
       <screen x="0" y="23" width="1440" height="877" />
     </state>
-    <state width="1398" height="226" key="GridCell.Tab.0.left/0.23.1440.877@0.23.1440.877" timestamp="1605015578839" />
-    <state width="1398" height="226" key="GridCell.Tab.0.right" timestamp="1605015578841">
+    <state width="1398" height="226" key="GridCell.Tab.0.left/0.23.1440.877@0.23.1440.877" timestamp="1605100897175" />
+    <state width="1398" height="226" key="GridCell.Tab.0.right" timestamp="1605100897176">
       <screen x="0" y="23" width="1440" height="877" />
     </state>
-    <state width="1398" height="226" key="GridCell.Tab.0.right/0.23.1440.877@0.23.1440.877" timestamp="1605015578841" />
-    <state x="221" y="62" key="SettingsEditor" timestamp="1605017577732">
+    <state width="1398" height="226" key="GridCell.Tab.0.right/0.23.1440.877@0.23.1440.877" timestamp="1605100897176" />
+    <state x="221" y="61" key="SettingsEditor" timestamp="1605099043181">
       <screen x="0" y="23" width="1440" height="877" />
     </state>
-    <state x="221" y="62" key="SettingsEditor/0.23.1440.877@0.23.1440.877" timestamp="1605017577732" />
+    <state x="221" y="61" key="SettingsEditor/0.23.1440.877@0.23.1440.877" timestamp="1605099043181" />
   </component>
 </project>
